@@ -12,6 +12,8 @@ id: 4
 
 You might be wondering why you should be learning Python.
 
+blah
+
 Python is widely used in the scientific community and it is a great tool to help you further advance your geosciences research.
 
 We will present you with the most important reasons to start using Python in the following [link](https://foundations.projectpythia.org/foundations/why-python.html).
