@@ -27,4 +27,4 @@ jobs:
         env:
           TOKEN: ${{ secrets.ACCESS_TOKEN }}
         run: |
-          gatsby build --prefix-paths && gh-pages -d public -r https://git:$TOKEN@github.com/throughput-ec/ec_workshops_py.git
+          gatsby build --prefix-paths && gh-pages -d public -r https://git:$TOKEN@github.com/amgeo-collaboration/earthcube_workshop_2022
