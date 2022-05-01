@@ -1,44 +1,58 @@
 ---
-title: 'Module 3: Intro to GitHub'
+title: 'Module 3: Development best-practices including FAIR data principles'
 description:
-  'This module will teach you about Version Control and how to use Git and Github.'
+  'This module will teach you different aspects in regards to Data Workflows, handling filenames and best practices such as testing, continuous integration and licensing.'
 prev: /module2
 next: /module4
 type: chapter
 id: 3
 ---
 
-<exercise id="1" title="Getting Started with Github">
+<exercise id="0" title="Learning Outcomes" type="slides">
 
-Python and Jupyter are cool technologies, but they only scratch the surface of why you might want to adopt Python for your geoscience workflow.
-
-This section from Project Pythia's tutorials will introduce GitHub, the de facto standard platform for collaboration and version control used by the open-source Python community.
-
-In the last exercise, you will configure your GitHub account for secure logins via ssh and/or https.
-
-
-[What is GitHub?](https://foundations.projectpythia.org/foundations/github/what-is-github.html)
-
-[What is a GitHub Repository?](https://foundations.projectpythia.org/foundations/github/github-repos.html)
-
-[Issues & Discussions](https://foundations.projectpythia.org/foundations/github/github-issues.html)
-
-[Cloning & Forking a Repository](https://foundations.projectpythia.org/foundations/github/github-cloning-forking.html)
-
-[GitHub Setup](https://foundations.projectpythia.org/foundations/github/github-setup-advanced.html)
+<slides source="chapter7_00_learning_outcomes">
+</slides>
 
 </exercise>
 
-<exercise id="2" title="Intermediate Github">
+<exercise id="1" title="About Filenames" type="slides">
 
-Now that you set up your GitHub account, it is time to start collaborating.
+<slides source="chapter7_01_filenames">
+</slides>
 
-Learn about branches, pull requests, and version control systems.
+</exercise>
 
-[Git Branches](https://foundations.projectpythia.org/foundations/github/git-branches.html)
+<exercise id="2" title="Project Organization" type="slides">
 
-[Creating a Pull Request](https://foundations.projectpythia.org/foundations/github/github-pull-request.html)
+<slides source="chapter7_02_project_organization">
+</slides>
 
-[Version Control with Git](https://foundations.projectpythia.org/foundations/github/basic-git.html)
+</exercise>
+
+<exercise id="3" title="Data Science Workflows" type="slides">
+
+<slides source="chapter7_03_ds_workflows">
+</slides>
+
+</exercise>
+
+<exercise id="4" title="Testing" type="slides">
+
+<slides source="chapter7_04_testing">
+</slides>
+
+</exercise>
+
+<exercise id="5" title="Introduction to CI/CD and Github Actions" type="slides">
+
+<slides source="chapter7_05_github_actions">
+</slides>
+
+</exercise>
+
+<exercise id="6" title="Software Licensing" type="slides">
+
+<slides source="chapter7_06_software_licensing">
+</slides>
 
 </exercise>

@@ -43,68 +43,19 @@ I prefer this UBC MDS because it sets up better R for Jupyter Notebooks
 
 </exercise>
 
-<exercise id="3" title="Introduction to Git and GitHub">
+<exercise id="3" title="Development Best Practices including FAIR Data Principles">
 
-[Happy Git With R](https://happygitwithr.com/)
+[Why Test Video](https://www.youtube.com/watch?v=Uamo4Ej0tWk)
 
-[GitHub YouTube Channel](https://www.youtube.com/githubguides)
+[Testing in R](https://r-pkgs.org/tests.html)
 
-[Data Science A First Introduction - Chapter 12 Collaboration with Version Control ](https://ubc-dsci.github.io/introduction-to-datascience/Getting-started-with-version-control.html)
+[Object Documentation](https://r-pkgs.org/man.html)
 
-[Version Control With Git - SW Carpentry Workshop](https://swcarpentry.github.io/git-novice/)
-
-[UBC MDS Getting Groovy With Git Lecture](https://github.com/UBC-MDS/DSCI_521_platforms-dsci/blob/master/lectures/02_lecture-git-github/02_lecture-git-github.ipynb)
-
-[UBC MDS More Git Lecture](https://github.com/UBC-MDS/DSCI_521_platforms-dsci/blob/master/lectures/03_lecture-more-git-markup-web/03_lecture-more-git-markup-web.ipynb)
-
-Dealing with merge conflicts in Jupyter Notebooks
-[nbdime](https://nbdime.readthedocs.io/en/latest/)
-
-Under construction:
-[Project Pythia](https://foundations.projectpythia.org/foundations/getting-started-github.html)
+[Go FAIR](https://www.go-fair.org/fair-principles/)
 
 </exercise>
 
-<exercise id="4" title="Introduction to Binder">
-
-[Get Started With Binder](https://mybinder.readthedocs.io/en/latest/introduction.html)
-
-[Binder User Guide Tutorials](https://mybinder.readthedocs.io/en/latest/tutorials/index.html)
-
-</exercise>
-
-<exercise id="5" title="Working with RMarkdown">
-
-[RMarkdown Lessons from RStudio](https://rmarkdown.rstudio.com/lesson-1.html)
-
-[R Markdown: The Definitive Guide - Chapter 2 Basics](https://bookdown.org/yihui/rmarkdown/basics.html)
-
-[R for Reproducible Scientific Analysis - SW Carpentry Workshop](https://swcarpentry.github.io/r-novice-gapminder/)
-
-[Programming with R - SW Carpentry Workshop](http://swcarpentry.github.io/r-novice-inflammation/)
-
-[UBC MDS Intro to RMarkdown](https://github.com/UBC-MDS/DSCI_521_platforms-dsci/blob/master/lectures/04_lecture-intro-rstudio-rmarkdown/04_lecture-intro-rstudio-rmarkdown.Rmd)
-
-[Cheatsheet](https://rmarkdown.rstudio.com/lesson-15.html)
-
-[R Markdown Reference Guide](https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf)
-
-</exercise>
-
-<exercise id="6" title="Introduction to Docker">
-
-[Docker - Use containers to Build, Share and Run your applications](https://www.docker.com/resources/what-container)
-
-[An Introduction to Rocker - Docker Containers for R](https://arxiv.org/pdf/1710.03675.pdf)
-
-[Docker Docs - Installing Docker](https://docs.docker.com/engine/install/)
-
-[Art Of Data Science Chapter 10]()
-
-
-</exercise>
-
-<exercise id="7" title="Development Best Practices including FAIR Data Principles">
+<exercise id="4" title="Intro to AMGeO">
 
 [Why Test Video](https://www.youtube.com/watch?v=Uamo4Ej0tWk)
 
