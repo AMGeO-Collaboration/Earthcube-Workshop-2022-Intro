@@ -1,7 +1,5 @@
-import ______ as pd
+from AMGeO.api import AMGeOApi
 
-df = _________('https://github.com/ProjectPythia/pythia-datasets/raw/main/data/enso_data.csv',index_col=________)
+api = AMGeOApi()
 
-nino = df[______]
-nino_slice = ___________
-nino_slice__________
+controller = api.___

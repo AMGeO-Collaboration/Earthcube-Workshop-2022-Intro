@@ -1,7 +1,5 @@
-import pandas as pd
+from AMGeO.api import AMGeOApi
 
-df = pd.read_csv('https://github.com/ProjectPythia/pythia-datasets/raw/main/data/enso_data.csv',index_col=0)
+api = AMGeOApi()
 
-nino = df["Nino12"]
-nino_slice = nino["1982-01-01":"2010-12-31"]
-nino_slice.plot()
+controller = api.get_controller()

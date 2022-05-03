@@ -4,6 +4,7 @@ import { graphql } from 'gatsby'
 import Layout from '../components/layout'
 import { Link } from '../components/link'
 import Logo from '../../static/logo.svg'
+import AMGeOLogo from '../../static/AMGeO-Logo.svg'
 
 import classes from '../styles/index.module.sass'
 
@@ -19,29 +20,30 @@ export default ({ data }) => {
             <Logo className={classes.logo} aria-label={siteMetadata.title} />
             <section>
 
-                <h1 className={classes.subtitle}><center>Welcome to EarthCube Interactive Workshops!</center></h1>
+                <h1 className={classes.subtitle}><center>Welcome to AMGeO/EarthCube Interactive Workshop!</center></h1>
                 <div className={classes.introduction}>
                 <p></p>
 
                 <center>
-                <p>
-                    These short courses will teach you how to conduct reproducible 
-                    research using Data Sciences tools.  
+                    <p>
+                        These short courses will teach you how to conduct reproducible 
+                        research using Data Sciences tools.  
 
-                    You will be working with Python, Jupyter, Docker containerization,
-                    and Git for version control.  
+                        You will be working with Python, Jupyter, AMGeO and other popular 
+                        Python packages.
 
-                </p>
-                <p>
-                    After these modules, you will be able to process your own research
-                    in a format suitable for analysis, writing your own analysis functions,
-                    and deriving data-driven insights via Jupyter Notebooks and RMarkdown files.
-                </p>
-                <p>
-                    This page runs on a python3 kernel.
-                    To visit the R kernel version, click <a href="https://throughput-ec.github.io/ec-workshops/" target="_blank" >here</a>.
+                    </p>
+                    <p>
+                        After these modules, you will be prepared to work with others 
+                        using Python for the AMGeO Earthcube Workshop. 
+                    </p>
+                    <p>
+                        This page runs on a python3 kernel.
 
-                </p>
+                        These materials are built on top of the great work provided by Earthcube 
+                        in this repo: https://github.com/throughput-ec/ec_workshops_py
+
+                    </p>
                 </center>
                 </div>
             </section>

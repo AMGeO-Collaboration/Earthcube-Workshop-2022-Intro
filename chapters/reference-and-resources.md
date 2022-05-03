@@ -57,12 +57,14 @@ I prefer this UBC MDS because it sets up better R for Jupyter Notebooks
 
 <exercise id="4" title="Intro to AMGeO">
 
-[Why Test Video](https://www.youtube.com/watch?v=Uamo4Ej0tWk)
+[AMGeO's website](https://amgeo.colorado.edu/)
 
-[Testing in R](https://r-pkgs.org/tests.html)
+[AMGeO's submission to Earthcube 2022](https://github.com/willemmirkovich/Earthcube-Meeting-2022)
 
-[Object Documentation](https://r-pkgs.org/man.html)
+[AMGeO's 2.0 Release notebook](https://github.com/AMGeO-Collaboration/AMGeO-API-Release)
 
-[Go FAIR](https://www.go-fair.org/fair-principles/)
+[Xarray](https://docs.xarray.dev/en/stable/)
+
+[Apexpy: package for coordinate transforms](https://pypi.org/project/apexpy/)
 
 </exercise>
