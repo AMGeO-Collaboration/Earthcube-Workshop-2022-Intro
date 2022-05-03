@@ -14,7 +14,8 @@ class Juniper extends React.Component {
 
     static defaultProps = {
         children: '',
-        branch: 'master',
+        repo: 'amgeo-collaboration/earthcube_workshop_2022',
+        branch: 'main',
         url: 'https://mybinder.org',
         serverSettings: {},
         kernelType: 'python3',

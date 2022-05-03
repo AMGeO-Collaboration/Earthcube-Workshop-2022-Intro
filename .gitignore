@@ -46,3 +46,6 @@ vignettes/*.pdf
 *.ipynb_checkpoints/
 node_modules/
 package-lock.json
+
+# gatsby dev
+public
