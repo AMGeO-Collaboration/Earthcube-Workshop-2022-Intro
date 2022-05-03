@@ -26,7 +26,7 @@ workbox.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-8f639a160ab855e17734.js"
+    "url": "webpack-runtime-94b5fa46cbd6cd6def9d.js"
   },
   {
     "url": "styles.aae8517004e289aa5e85.css"
@@ -50,14 +50,14 @@ self.__precacheManifest = [
     "url": "e6d6ed13-bab39835ca1e382a1a59.js"
   },
   {
-    "url": "app-0b1e013aa59da202f82e.js"
+    "url": "app-0da375b0dec15400a939.js"
   },
   {
     "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-36dc033f967ae9fe9cda.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "08689ba91db197a79f366d5d8f479dd6"
+    "revision": "e2da766625ab60026c4d5f8dc1eec75f"
   },
   {
     "url": "page-data/offline-plugin-app-shell-fallback/page-data.json",
@@ -65,14 +65,14 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "09773a9107f646fcd382e9d5fd0c8c6d"
+    "revision": "7df983898608acd0bbceb90b8286dcb8"
   },
   {
     "url": "polyfill-79c37fe16fed14a2ac3b.js"
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "6c950672f02b68f509c900e77a690231"
+    "revision": "7ea68ae1092bf3b2df6768a9a902e102"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
@@ -91,12 +91,12 @@ const { NavigationRoute } = workbox.routing
 
 const navigationRoute = new NavigationRoute(async ({ event }) => {
   let { pathname } = new URL(event.request.url)
-  pathname = pathname.replace(new RegExp(`^/earthcube_workshop_2022`), ``)
+  pathname = pathname.replace(new RegExp(`^/Earthcube-Workshop-2022-Intro`), ``)
 
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/earthcube_workshop_2022/app-0b1e013aa59da202f82e.js`))) {
+  if (!resources || !(await caches.match(`/Earthcube-Workshop-2022-Intro/app-0da375b0dec15400a939.js`))) {
     return await fetch(event.request)
   }
 
@@ -109,7 +109,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
     }
   }
 
-  const offlineShell = `/earthcube_workshop_2022/offline-plugin-app-shell-fallback/index.html`
+  const offlineShell = `/Earthcube-Workshop-2022-Intro/offline-plugin-app-shell-fallback/index.html`
   return await caches.match(offlineShell)
 })
 
