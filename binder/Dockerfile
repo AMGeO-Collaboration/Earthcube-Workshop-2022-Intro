@@ -18,7 +18,7 @@ RUN adduser --disabled-password \
 WORKDIR ${HOME}
 
 # dummmy credentials file
-#COPY amgeo_user.json .local/share/AMGeO/amgeo_user.json
+COPY amgeo_user.json .local/share/AMGeO/amgeo_user.json
 
 # give user permissions to files in HOME
 USER root
